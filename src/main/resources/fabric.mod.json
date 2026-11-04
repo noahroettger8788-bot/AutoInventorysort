@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donut_auto_sort",
+  "version": "${version}",
+  "name": "Donut Auto Sort",
+  "description": "Client-side inventory sorting with configurable item priority.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.donutautosort.DonutAutoSortClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
